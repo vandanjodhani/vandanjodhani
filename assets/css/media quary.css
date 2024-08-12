@@ -1,4 +1,4 @@
-@media screen and (max-width:1199px){
+@media(max-width:1199px){
     .container{
         max-width: 960px;
     }
@@ -6,7 +6,7 @@
         font-size: 14px;
     }
     .category-outer .container .category-inner .category:hover::after {
-        left: 80px;
+        left: 82px;
     }
     .product-iteam-outer .container .product-iteam-inner .product-iteam{
         width: 33.33%;
@@ -36,8 +36,45 @@
     .offer-outer .container .offer-inner .offer .offer-info .offer-p{
         margin-bottom: 20px;
     }
+    .service-outer .container .service-inner .service-iteam .iteam-inner .iteam-content .iteam-content-img {
+        padding: 0px 70px;
+    }
+    .category-outer .container .category-inner .category .category-img {
+        padding: 0px 70px;
+    }
+    .offer-outer .container .offer-inner .offer .offer-info h2 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    .ourproduct-outer .container .ourproduct-inner .ourproduct-title{
+        font-size: 24px;
+    }
+    .advertise-outer .container .advertise-inner .advertise-info{
+        top: 15%;
+    }
+    .menu-outer .container .menu-inner .menu-type-inner .menu-iteam-inner{
+        width: 33.33%;
+    }
+    .menu-outer .container .menu-inner .menu-type-inner .menu-iteam-none{
+        display: none;
+    }
+    .blog-outer .container .blog-inner .blog-head .blog-heading{
+        font-size: 24px;
+    }
+    .blog-outer .container .blog-inner .blog-row .blog .blog-info .blog-p{
+        font-size: 14px;
+    }
+    .blog-outer .container .blog-inner .blog-row .blog .blog-info .blog-button{
+        margin: 25px;
+        bottom: -5px;
+        left: 0px;
+    }
+    .cook-outer .container .cook-inner .cook-head .cook-heading{
+        font-size: 24px;
+    }
 }
-@media screen and (max-width: 991px){
+
+@media(max-width: 991px){
     .container{
         max-width: 720px;
     }
@@ -45,12 +82,14 @@
         left: 57px;
     }
 }
-@media screen and (max-width: 767px){
+
+@media(max-width: 767px){
     .container{
         max-width: 540px;
     }
 }
-@media screen and (max-width: 575px){
+
+@media(max-width: 575px){
     .container{
         max-width: 100%;
     }

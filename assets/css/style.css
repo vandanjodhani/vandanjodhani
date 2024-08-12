@@ -493,7 +493,7 @@ li {
 	display: block;
 }
 .service-outer .container .service-inner .service-iteam .iteam-inner .iteam-content .iteam-content-img {
-	padding: 0px 70px;
+	padding: 0px 100px;
 }
 .service-outer .container .service-inner .service-iteam .iteam-inner .iteam-info {
 	color: #7d7d7d;
@@ -552,7 +552,7 @@ li {
 	width: 50px;
 	margin-bottom: 20px;
 	background-color: transparent;
-	padding: 0 70px;
+	padding: 0 95px;
 }
 .category-outer .container .category-inner .category p {
 	color: white;
@@ -804,8 +804,8 @@ li {
 	text-transform: uppercase;
 	position: absolute;
 	top: 60%;
-	padding: 12px 25px;
-	left: 6%;
+	padding: 10px 25px;
+	left: 7%;
 }
 .offer-outer .container .offer-inner .offer a:hover {
 	background-color: black;
@@ -835,12 +835,12 @@ li {
 }
 .ourproduct-outer .container .ourproduct-inner .ourproduct-type .ourproducts {
 	margin: 0px 20px;
-	font-size: 17px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 .ourproduct-outer .container .ourproduct-inner .ourproduct-type .ourproducts1 {
 	margin: 0px 20px;
-	font-size: 17px;
+	font-size: 16px;
 	text-transform: uppercase;
 	color: #f5ab1e;
 }
@@ -1084,10 +1084,11 @@ li {
 }
 .blog-outer .container .blog-inner {
 	display: block;
+	padding: 0 15px;
 }
 .blog-outer .container .blog-inner .blog-head {
 	display: flex;
-	padding: 10px 0px;
+	padding: 15px 0px;
 	position: relative;
 }
 .blog-outer .container .blog-inner .blog-head .blog-heading {
@@ -1102,7 +1103,7 @@ li {
 .blog-outer .container .blog-inner .blog-row {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0px -15px;
+	margin: 0 -15px;
 }
 .blog-outer .container .blog-inner .blog-row .blog {
 	width: 33.33%;
@@ -1113,20 +1114,21 @@ li {
 .blog-outer .container .blog-inner .blog-row .blog .blog-date {
 	position: absolute;
 	background-color: #f5ab1e;
-	padding: 15px 30px;
+	padding: 14px 30px;
 	color: white;
 	border-radius: 0px 40px 40px 0px;
+	top: -1px;
 }
 .blog-outer .container .blog-inner .blog-row .blog .blog-img .blog-image {
 	width: 100%;
 }
 .blog-outer .container .blog-inner .blog-row .blog .blog-info {
 	display: block;
-	padding: 35px 25px;
+	padding: 30px 25px;
 	border: 1px dashed #ddd;
-	margin-top: -5px;
 	position: relative;
 	height: 130px;
+	padding-bottom: 40px;
 }
 .blog-outer .container .blog-inner .blog-row .blog .blog-info .blog-h {
 	margin-bottom: 10px;
@@ -1139,20 +1141,19 @@ li {
 }
 .blog-outer .container .blog-inner .blog-row .blog .blog-info .blog-p {
 	color: #7d7d7d;
-	font-size: 15px;
+	font-size: 16px;
 	margin-bottom: 10px;
 }
 .blog-outer .container .blog-inner .blog-row .blog .blog-info .blog-button {
 	background-color: black;
 	color: white;
-	text-decoration: none;
 	display: block;
 	padding: 10px 25px;
 	border-radius: 50px;
-	margin: 20px;
+	margin: 25px;
 	position: absolute;
 	bottom: 0px;
-	left: 10px;
+	left: 5px;
 	text-transform: uppercase;
 }
 .blog-outer .container .blog-inner .blog-row .blog .blog-info .blog-button:hover {
