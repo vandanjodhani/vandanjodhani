@@ -8,8 +8,14 @@
 }
 .container {
 	max-width: 1200px;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 .scroll-button {
 	padding: 7px 10px;
@@ -50,8 +56,8 @@ li {
 }
 
 .header-top-outer .container .header-top-inner .header-top-time {
+	font-size: 16px;
 	display: flex;
-	font-size: 14px;
 }
 
 .header-top-outer .container .header-top-inner .header-top-time .fa-regular.fa-clock {
@@ -61,12 +67,16 @@ li {
 .header-top-outer .container .header-top-inner .header-choice {
 	position: absolute;
 	right: 0px;
+	display: flex;
 }
-
 .header-top-outer .container .header-top-inner .header-choice .header-top-a {
 	margin: 0px 7px;
 	text-decoration: none;
 	font-size: 15px;
+}
+.header-top-outer .container .header-top-inner .header-choice .header-top-a .country-flag {
+	width: 16px;
+	display: inline-block;
 }
 
 .header-top-outer .container .header-top-inner .header-choice .header-top-a:hover span {
@@ -456,11 +466,6 @@ li {
 	display: block;
 	margin-bottom: 10px;
 }
-.service-outer .container {
-	display: block;
-	margin: 0px auto;
-	max-width: 1200px;
-}
 .service-outer .container .service-inner {
 	display: flex;
 	flex-wrap: wrap;
@@ -486,6 +491,12 @@ li {
 }
 .service-outer .container .service-inner .service-iteam .iteam-inner .iteam-content {
 	display: block;
+}
+.service-outer .container .service-inner .service-iteam .iteam-inner .iteam-content .iteam-content-img {
+	padding: 0px 70px;
+}
+.service-outer .container .service-inner .service-iteam .iteam-inner .iteam-info {
+	color: #7d7d7d;
 }
 .service-outer .container .service-inner .service-iteam:hover .service-type {
 	color: #f5ab1e;
@@ -523,15 +534,15 @@ li {
 	font-size: 18px;
 	position: relative;
 }
-.category-outer .container .category-inner .category:hover:after {
+.category-outer .container .category-inner .category:hover::after {
 	content: "\f0d7";
 	font-weight: 900;
 	font-family: "Font Awesome 6 free";
-	font-size: 50px;
+	font-size:  48px;
 	color: #222222;
 	position: absolute;
-	bottom: -28px;
-	left: 107px;
+	bottom: -27px;
+	left: 100px;
 	z-index: 1;
 }
 .category-outer .container .category-inner .category:hover p {
@@ -541,6 +552,7 @@ li {
 	width: 50px;
 	margin-bottom: 20px;
 	background-color: transparent;
+	padding: 0 70px;
 }
 .category-outer .container .category-inner .category p {
 	color: white;
@@ -552,7 +564,11 @@ li {
 	background-color: rgba(235, 231, 231, 0.767);
 	display: block;
 	clear: both;
-	padding: 20px 0px;
+	padding: 50px 0px;
+}
+.product-iteam-outer .container .product-iteam-inner {
+	display: flex;
+	flex-wrap: wrap;
 	position: relative;
 }
 .product-side-left {
@@ -564,7 +580,7 @@ li {
 	font-size: 12px;
 	position: absolute;
 	top: 44%;
-	left: 75px;
+	left: 0px;
 	z-index: 1;
 }
 .product-side-left:hover {
@@ -580,16 +596,12 @@ li {
 	font-size: 12px;
 	position: absolute;
 	top: 44%;
-	right: 75px;
+	right: 0px;
 	z-index: 1;
 }
 .product-side-right:hover {
 	background-color: #f5ab1e;
 	opacity: 0.5;
-}
-.product-iteam-outer .container .product-iteam-inner {
-	display: flex;
-	flex-wrap: wrap;
 }
 .product-iteam-outer .container .product-iteam-inner .product-iteam {
 	box-sizing: border-box;
@@ -672,6 +684,9 @@ li {
 	text-align: center;
 	padding-bottom: 15px;
 }	
+.product-iteam-outer .container .product-iteam-inner .product-iteam .inner-iteam .product-info del {
+	color: #7d7d7d;
+}
 .product-iteam-outer .container .product-iteam-inner .product-iteam .inner-iteam .product-info h3 {
 	font-size: 16px;
 	font-weight: 500;
@@ -769,10 +784,13 @@ li {
 }
 .offer-outer .container .offer-inner .offer .offer-info h2 {
 	color: white;
+	margin-bottom: 16px;
 }
 .offer-outer .container .offer-inner .offer .offer-info .offer-p {
-	margin: 10px auto;
-	color: white;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 28px;
+	text-transform: capitalize;
 }
 .offer-outer .container .offer-inner .offer .offer-info .offer-abbr {
 	color: #f5ab1e;
@@ -786,8 +804,8 @@ li {
 	text-transform: uppercase;
 	position: absolute;
 	top: 60%;
-	padding: 12px 20px;
-	left: 7%;
+	padding: 12px 25px;
+	left: 6%;
 }
 .offer-outer .container .offer-inner .offer a:hover {
 	background-color: black;
