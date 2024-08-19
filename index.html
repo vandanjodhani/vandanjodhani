@@ -22,12 +22,13 @@
         <div class="container">
             <div class="header-top-inner">
 
-                <div class="header-top-time">
+                <div class="header-top-time header-top-time-none">
                     <i class="fa-regular fa-clock"></i>
                     <p> Opening Hours: 8.00AM - 18.00PM</p>
                 </div>
                 <div class="header-choice">
-                    <a class="header-top-a" href="#"><span>$ currency <i class="fa-solid fa-angle-down"></i></span></a>
+                    <a class="header-top-a " href="#"><span class="dollarnone">$</span><span> currency <i
+                                class="fa-solid fa-angle-down"></i></span></a>
                     <a class="header-top-a" href="#"><span><img class="country-flag" src="assets/image/usa.jpg"
                                 alt="english">Language <i class="fa-solid fa-angle-down"></i></span></a>
                     <a class="header-top-a" href="#"><span><i class="fa-regular fa-user"></i> my account <i
@@ -55,9 +56,11 @@
                 </div>
                 <div class="header-cart">
                     <button class="hrader-cart-button" type="submit"><a href="#"><i
-                                class="fa-solid fa-basket-shopping"></i></a></button>
-                    <a href="#" class="order-count">0</a href="#">
-                    <a class="header-middle-a" href="#">my cart <br>0 itams - $0.00</a>
+                                class="fa-solid fa-basket-shopping"></i></a>
+                        <a href="#" class="order-count">0</a href="#">
+                    </button>
+
+                    <a class="header-middle-a middle-a-hidden" href="#">my cart <br>0 itams - $0.00</a>
                 </div>
 
             </div>
@@ -70,6 +73,11 @@
         <div class="container">
             <div class="header-bottom-inner">
 
+                <div class="open-button">
+                    <a href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
                 <div class="header-bottom-info">
                     <ul class="header-bottom-ul">
                         <li class="header-bottom-li" type="none"><a href="#">home</a>
@@ -123,6 +131,10 @@
                         </li>
                     </ul>
                 </div>
+                <div class="header-input header-input-display">
+                    <input class="header-middle-input" type="text" placeholder="search...">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
                 <div class="contact-us">
                     <i class="fa-solid fa-phone"></i>
                     <a class="header-bottom-call" href="tel:+0123456789">call Us: +123-456-7890</a>
@@ -136,7 +148,7 @@
     <!-- main section start -->
     <div class="main-outer">
         <div class="main-inner">
-            <a href="#" class="side-button1"><i class="fa-solid fa-chevron-left"></i></a>
+            <a href="#" class="side-button1 side-button1"><i class="fa-solid fa-chevron-left"></i></a>
             <a href="#" class="side-button2"><i class="fa-solid fa-chevron-right"></i></a>
             <img class="main-bener" src="assets/image/main-bg1.jpg" alt="bg">
 
@@ -144,12 +156,16 @@
                 <div class="container">
                     <div class="main-title-inner">
                         <h1 class="main-h1">delicious food</h1>
-                        <p class="main-p">eat good for healthy life</p>
+                        <p class="main-p main-p-none">eat good for healthy life</p>
                         <span class="main-span1">$49.00</span>
                         <span class="main-span2">$95.00</span>
                         <a href="#" class="main-button">order now</a>
                     </div>
                 </div>
+            </div>
+            <div class="dots">
+                <a class="dot-a" href="#"><i class="fa-solid fa-circle"></i></a>
+                <a class="dot-a" href="#"><i class="fa-solid fa-circle"></i></a>
             </div>
 
         </div>
@@ -221,22 +237,27 @@
                 <a href="#" class="category">
                     <img class="category-img" src="assets/image/category1.png" alt="category1">
                     <p>pizza</p>
+                    <div class="category-underline"></div>
                 </a>
                 <a href="#" class="category">
                     <img class="category-img" src="assets/image/category2.png" alt="category2">
                     <p>burger</p>
+                    <div class="category-underline"></div>
                 </a>
                 <a href="#" class="category">
                     <img class="category-img" src="assets/image/category3.png" alt="category3">
                     <p>tacos</p>
+                    <div class="category-underline"></div>
                 </a>
-                <a href="#" class="category">
+                <a href="#" class="category category-none">
                     <img class="category-img" src="assets/image/category4.png" alt="category4">
                     <p>salad</p>
+                    <div class="category-underline"></div>
                 </a>
-                <a href="#" class="category">
+                <a href="#" class="category category-none">
                     <img class="category-img" src="assets/image/category5.png" alt="category5">
                     <p>drinks</p>
+                    <div class="category-underline"></div>
                 </a>
             </div>
         </div>
@@ -276,7 +297,7 @@
                     </div>
                 </div>
 
-                <div class="product-iteam">
+                <div class="product-iteam product2-none">
                     <div class="inner-iteam">
                         <div class="inner-info">
                             <a class="iteam-button"><i class="fa-solid fa-basket-shopping"></i></a>
@@ -318,7 +339,7 @@
                     </div>
                 </div>
 
-                <div class="product-iteam">
+                <div class="product-iteam product4-none">
                     <div class="inner-iteam">
                         <div class="inner-info">
                             <a class="iteam-button"><i class="fa-solid fa-basket-shopping"></i></a>
@@ -382,7 +403,7 @@
             <div class="ourproduct-inner">
                 <h2 class="ourproduct-title">Our Products</h2>
                 <div class="ourproduct-type">
-                    <a href="#" class="ourproducts1">new arrivals</a>
+                    <a href="#" class="ourproducts1">NEW ARRIVALS</a>
                     <a href="#" class="ourproducts">onsale</a>
                     <a href="#" class="ourproducts">bestseller</a>
                 </div>
@@ -401,7 +422,7 @@
                 <div class="advertise-info">
                     <h2 class="advertise-heading">FRESH & HEALTHY <br>FOOD</h2>
                     <div class="advertise-title">
-                        <p class="advertise-p">Breakfast Combo Offers</p>
+                        <p class="advertise-p advertise-p-none">Breakfast Combo Offers</p>
                         <span class="advertise-price">$149.00</span>
                         <span class="advertise-delet">$199.00</span>
                     </div>
@@ -450,7 +471,7 @@
                         </div>
                     </div>
 
-                    <div class="menu-iteam-inner">
+                    <div class="menu-iteam-inner menu-iteam-sm">
                         <div class="menu-type-iteam">
                             <div class="menu-iteam">
                                 <span class="menu-discount">-20%</span>
@@ -473,12 +494,33 @@
                         </div>
                     </div>
 
+                    <div class="menu-iteam-inner extra-iteam-inner">
+                        <div class="menu-type-iteam">
+                            <div class="menu-iteam">
+                                <a href="#" class="menu-button"><i class="fa-solid fa-basket-shopping"></i></a>
+                                <div class="menu-type-image">
+                                    <img class="real-img" src="assets/image/manchuryan.jpg" alt="iteam3">
+                                    <img src="assets/image/chilli pizza.jpg" alt="chilli pizza" class="hover-img">
+                                    <div class="main-icon">
+                                        <a class="left-icon" href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a class="middle-icon" href="#"><i class="fa-regular fa-eye"></i></a>
+                                        <a class="right-icon" href="#"><i class="fa-solid fa-repeat"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-info">
+                                <a href="#" class="menu-name">Gobi manchurian</a><br>
+                                <span class="menu-price">$29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="menu-iteam-inner">
                         <div class="menu-type-iteam">
                             <div class="menu-iteam">
                                 <a href="#" class="menu-button"><i class="fa-solid fa-basket-shopping"></i></a>
                                 <div class="menu-type-image">
-                                    <img class="real-img" src="assets/image/chilli pizza.jpg" alt="iteam3">
+                                    <img class="real-img" src="assets/image/chilli pizza.jpg" alt="iteam4">
                                     <img src="assets/image/hot dog.jpg" alt="hot dog" class="hover-img">
                                     <div class="main-icon">
                                         <a class="left-icon" href="#"><i class="fa-regular fa-heart"></i></a>
@@ -494,13 +536,13 @@
                         </div>
                     </div>
 
-                    <div class="menu-iteam-inner menu-iteam-none">
+                    <div class="menu-iteam-inner menu-iteam-none menu-iteam-sm">
                         <div class="menu-type-iteam">
                             <div class="menu-iteam">
                                 <a href="#" class="menu-button"><i class="fa-solid fa-basket-shopping"></i></a>
                                 <div class="menu-type-image">
-                                    <img class="real-img" src="assets/image/burger.jpg" alt="iteam4">
-                                    <img src="assets/image/chese pizza.jpg" alt="pizza" class="hover-img">
+                                    <img class="real-img" src="assets/image/burger.jpg" alt="iteam5">
+                                    <img src="assets/image/chilli pizza.jpg" alt="pizza" class="hover-img">
                                     <div class="main-icon">
                                         <a class="left-icon" href="#"><i class="fa-regular fa-heart"></i></a>
                                         <a class="middle-icon" href="#"><i class="fa-regular fa-eye"></i></a>
@@ -514,6 +556,28 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="menu-iteam-inner extra-iteam-inner">
+                        <div class="menu-type-iteam">
+                            <div class="menu-iteam">
+                                <a href="#" class="menu-button"><i class="fa-solid fa-basket-shopping"></i></a>
+                                <div class="menu-type-image">
+                                    <img class="real-img" src="assets/image/chese pizza.jpg" alt="iteam6">
+                                    <img src="assets/image/frenki.jpg" alt="frenki" class="hover-img">
+                                    <div class="main-icon">
+                                        <a class="left-icon" href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a class="middle-icon" href="#"><i class="fa-regular fa-eye"></i></a>
+                                        <a class="right-icon" href="#"><i class="fa-solid fa-repeat"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-info">
+                                <a href="#" class="menu-name">chilli pizza</a><br>
+                                <span class="menu-price">$35.90</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -534,12 +598,16 @@
                 </div>
 
                 <div class="blog-row">
-
                     <div class="blog">
                         <span class="blog-date">jan 20,2022</span>
                         <div class="blog-img">
-                            <img class="blog-image" src="assets/image/blog1.jpg" alt="blog1">
+                            <a href="#"><img class="blog-image" src="assets/image/blog1.jpg" alt="blog1"></a>
+                            <div class="blog-hover">
+                                <a class="blog-hover1" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a class="blog-hover2" href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
                         </div>
+
                         <div class="blog-info">
                             <h3 class="blog-h"><a href="#">consectetur adipiscing</a></h3>
                             <p class="blog-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
@@ -549,10 +617,14 @@
                         </div>
 
                     </div>
-                    <div class="blog">
+                    <div class="blog blog2-none">
                         <span class="blog-date">jan 20,2022</span>
                         <div class="blog-img">
-                            <img class="blog-image" src="assets/image/blog2.jpg" alt="blog1">
+                            <a href="#"><img class="blog-image" src="assets/image/blog2.jpg" alt="blog1"></a>
+                            <div class="blog-hover">
+                                <a class="blog-hover1" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a class="blog-hover2" href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
                         </div>
                         <div class="blog-info">
                             <h3 class="blog-h"><a href="#">lorem ipsul dolo</a></h3>
@@ -563,19 +635,23 @@
                         </div>
 
                     </div>
-                    <div class="blog">
+                    <div class="blog blog-none">
                         <span class="blog-date">jan 20,2022</span>
                         <div class="blog-img">
-                            <img class="blog-image" src="assets/image/blog3.jpg" alt="blog1">
+                            <a href="#"><img class="blog-image" src="assets/image/blog3.jpg" alt="blog1"></a>
+                            <div class="blog-hover">
+                                <a class="blog-hover1" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a class="blog-hover2" href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
                         </div>
                         <div class="blog-info">
                             <h3 class="blog-h"><a href="#">lorem ipsul dolo</a></h3>
                             <p class="blog-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
                                 nesciunt
                                 minima minus sapiente error eius!...</p>
+
                             <a class="blog-button" href="#">read more</a>
                         </div>
-
                     </div>
 
                 </div>
@@ -599,7 +675,7 @@
                 </div>
 
                 <div class="cook-info">
-                    <div class="cooks">
+                    <div class="cooks cooks-none">
                         <div class="cook-contant">
                             <i class="fa-solid fa-quote-right"></i>
                             <p class="cook-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
@@ -637,22 +713,22 @@
         <div class="container">
             <div class="brand-inner">
 
-                <div class="brands">
+                <div class="brands brands-none">
                     <a href="#"><img src="assets/image/brand1.jpg" alt="brand"></a>
                 </div>
-                <div class="brands">
+                <div class="brands brands-none">
                     <a href="#"><img src="assets/image/brand2.jpg" alt="brand"></a>
                 </div>
-                <div class="brands">
+                <div class="brands brand3-none">
                     <a href="#"><img src="assets/image/brand3.jpg" alt="brand"></a>
                 </div>
-                <div class="brands">
+                <div class="brands brand-sm-none">
                     <a href="#"><img src="assets/image/brand4.jpg" alt="brand"></a>
                 </div>
                 <div class="brands">
                     <a href="#"><img src="assets/image/brand5.jpg" alt="brand"></a>
                 </div>
-                <div class="brands">
+                <div class="brands brand-none">
                     <a href="#"><img src="assets/image/brand6.jpg" alt="brand"></a>
                 </div>
 
@@ -671,7 +747,8 @@
                     <div class="footer">
                         <div class="footer-info">
                             <span class="footer-heading">Contact info</span>
-                            <ul>
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="footer-content-none">
                                 <li class="footer1-li" type="none">
                                     71 Pennington Lane Vernon Rockville, CT 06066.
                                 </li>
@@ -683,7 +760,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="social-media">
+                        <div class="social-media footer-content-none">
                             <a class="app-logo" href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             <a class="app-logo" href="#"><i class="fa-brands fa-twitter"></i></a>
                             <a class="app-logo" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -695,7 +772,8 @@
                     <div class="footer">
                         <div class="footer-1">
                             <div class="footer-heading">Information</div>
-                            <ul class="footer2-ul">
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>                            
+                            <ul class="footer2-ul footer-content-none">
                                 <li class="footer2-li" type="none"><a class="footer2-a" href="#">delivery</a></li>
                                 <li class="footer2-li" type="none"><a class="footer2-a" href="#">legal notice</a>
                                 </li>
@@ -707,7 +785,8 @@
                         </div>
                         <div class="footer-1">
                             <div class="footer-heading">Useful links</div>
-                            <ul class="footer2-ul">
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="footer2-ul footer-content-none">
                                 <li class="footer2-li" type="none"><a class="footer2-a" href="#">prices drop</a>
                                 </li>
                                 <li class="footer2-li" type="none"><a class="footer2-a" href="#">contact us</a></li>
@@ -745,7 +824,7 @@
             <div class="container">
                 <div class="footer-bottom-inner">
 
-                    <p><a class="footer-bottom-a" href="#">© 2024-ecommerce software by prestashop™</a></p>
+                    <p><a class="footer-bottom-a" href="#">© 2024 - ecommerce software by prestashop™</a></p>
 
                 </div>
             </div>
