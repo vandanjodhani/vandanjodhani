@@ -20,18 +20,35 @@ img {
 	height: auto;
 }
 .scroll-button {
-	padding: 8px 11px;
+	padding: 5px 15px;
 	border: 1px dashed #79757588;
 	border-radius: 50%;
 	background-color: white;
-	margin: 1px;
+	margin-right: 4px;
+	position: relative;
 }
 .scroll-button:hover {
 	background-color: #f5ab1e;
 	opacity: 0.5;
-	padding: 8px 11px;
 	border: none;
 	color: white;
+	padding: 7px 11px;
+}
+.scroll-button .fa-solid.fa-angle-left {
+	font-size: 13px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+}
+.scroll-button .fa-solid.fa-angle-right {
+	font-size: 13px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
 }
 .scroll-button:hover .fa-solid{
 	color: white;
@@ -1280,7 +1297,6 @@ li {
 	display: flex;
 	margin-bottom: 32px;
 	position: relative;
-	font-size: 30px;
 	line-height: 30px;
 }
 .cook-outer .container .cook-inner .cook-head .cook-heading {

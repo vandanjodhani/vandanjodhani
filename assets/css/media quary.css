@@ -2,6 +2,9 @@
     .container{
         max-width: 960px;
     }
+    .header-input {
+        margin-left: 25px;
+    }
     .service-outer .container .service-inner .service-iteam .iteam-inner {
         font-size: 14px;
     }
@@ -122,8 +125,9 @@
     .header-middle .container .header-middle-inner .header-input{
         display: none;
     }
-    .header-bottom .container .header-bottom-inner .header-input-display{
+    .header-bottom .container .header-bottom-inner .header-input-display {
         display: block;
+        margin-left: 95px;
     }
     .header-bottom .container .header-bottom-inner .open-button {
         display: block;
@@ -134,6 +138,9 @@
     .header-input a {
         padding: 8px 10px;
         top: 2px;
+    }
+    .header-middle {
+        padding: 5px 0px;
     }
     .main-outer .main-inner .main-title-outer .container .main-title-inner .main-h1{
         font-size: 35px;
@@ -738,7 +745,7 @@
         left: 63%;
     }
 }
-@media(max-width: 574px){
+@media(max-width: 575px){
     .container {
         max-width: 100%;
     }
