@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vegelite</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -143,13 +145,141 @@
         <div class="container">
             <div class="home-inner">
                 <ul class="direction">
-                    <li class="direction-text">home</li>
-                    <li class="direction-text">Log in to your account</li>
+                    <li class="direction-text"><a href="#">home</a></li><i class="fa-solid fa-angles-right"></i>
+                    <li class="direction-text"><a href="#">Log in to your account</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- home section end -->
+
+    <!-- account section start -->
+    <div class="account-outer">
+        <div class="container">
+            <div class="account-inner">
+
+                <div class="login-heading">
+                    <h1>Log In To Your Account</h1>
+                </div>
+                <form>
+                    <div class="user">
+                        <span class="inp-label">Email</span>
+                        <input type="email">
+                    </div>
+                    <div class="user">
+                        <span class="inp-label">password</span>
+                        <input type="password">
+                        <button type="button"><a href="#">Show</a></button>
+                    </div>
+                    <div class="submite">
+                        <a class="forgot" href="#">Forget Your password?</a>
+                        <button class="sign-in" type="submit">Sign in</button>
+                    </div>
+                    <hr>
+                    <div class="notlogin">
+                        <a href="#">No account? Create one here</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- account section end -->
+        <!-- main-footer section start -->
+    <div class="main-footer">
+        <!-- footer section start -->
+        <div class="footer-outer">
+            <div class="container">
+                <div class="footer-inner">
+
+                    <div class="footer">
+                        <div class="footer-info">
+                            <span class="footer-heading">Contact info</span>
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="footer-content-none">
+                                <li class="footer1-li" type="none">
+                                    71 Pennington Lane Vernon Rockville, CT 06066.
+                                </li>
+                                <li class="footer1-li" type="none">
+                                    <a class="call" href="tel:+0123456789">0123-456-789</a>
+                                </li>
+                                <li class="footer1-li" type="none">
+                                    <a class="footer-head-a" href="#">Demo@yourstore.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-media footer-content-none">
+                            <a class="app-logo" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="app-logo" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="app-logo" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a class="app-logo" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="app-logo" href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <div class="footer-1">
+                            <div class="footer-heading">Information</div>
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>                            
+                            <ul class="footer2-ul footer-content-none">
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">delivery</a></li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">legal notice</a>
+                                </li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">about us</a></li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">secure payment</a>
+                                </li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">sitemap</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-1">
+                            <div class="footer-heading">Useful links</div>
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="footer2-ul footer-content-none">
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">prices drop</a>
+                                </li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">contact us</a></li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">stores</a></li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">login</a></li>
+                                <li class="footer2-li" type="none"><a class="footer2-a" href="#">my account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <div class="footer-heading">NEWSLETTER SIGNUP</div>
+                        <p>You may unsubscribe at any moment. For that purpose, please find our contact info in the
+                            legal notice.</p>
+
+                        <div class="footer-search">
+                            <input class="footer-input" type="email" placeholder="your email address">
+                            <a href="#" class="footer-button"><i class="fa-solid fa-paper-plane"></i></a>
+                        </div>
+                        <div class="payment">
+                            <div class="footer-heading">payment</div>
+                            <div class="payment-option">
+                                <a href="#"><img src="assets/image/payment.png" alt="payment"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer section end -->
+
+        <!-- footer-bottom section start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-inner">
+
+                    <p><a class="footer-bottom-a" href="#">© 2024 - ecommerce software by prestashop™</a></p>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom section end -->
+    </div>
+    <!-- main-footer section end -->
 </body>
 
 </html>

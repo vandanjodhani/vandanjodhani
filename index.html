@@ -11,9 +11,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".chatbox").click(function () {
+                $(".chat-box-outer").toggle();
+            });
+            $(".chatbox").click(function () {
+                $(".fa-comment").css("display", "none");
+                $(".fa-xmark").css("display", "block");
+            });
+            $("#dep").click(function () {
+                $(".department-type").slideToggle();
+            });
+            $(".header-choice").click(function () {
+                $(".currency").slideToggle("slow");
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -29,9 +49,13 @@
                 <div class="header-choice">
                     <a class="header-top-a " href="#"><span class="dollarnone">$</span><span> currency <i
                                 class="fa-solid fa-angle-down"></i></span></a>
+                    <ul class="currency">
+                        <li><a href="#">€ EUR</a></li>
+                        <li><a href="#">$ USD</a></li>
+                    </ul>
                     <a class="header-top-a" href="#"><span><img class="country-flag" src="assets/image/usa.jpg"
                                 alt="english">Language <i class="fa-solid fa-angle-down"></i></span></a>
-                    <a class="header-top-a" href="#"><span><i class="fa-regular fa-user"></i> my account <i
+                    <a class="header-top-a" href="signin.html"><span><i class="fa-regular fa-user"></i> my account <i
                                 class="fa-solid fa-angle-down"></i></span></a>
                 </div>
 
@@ -772,7 +796,7 @@
                     <div class="footer">
                         <div class="footer-1">
                             <div class="footer-heading">Information</div>
-                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>                            
+                            <a class="footer-arrow" href="#"><i class="fa-solid fa-angle-down"></i></a>
                             <ul class="footer2-ul footer-content-none">
                                 <li class="footer2-li" type="none"><a class="footer2-a" href="#">delivery</a></li>
                                 <li class="footer2-li" type="none"><a class="footer2-a" href="#">legal notice</a>
@@ -825,6 +849,33 @@
                 <div class="footer-bottom-inner">
 
                     <p><a class="footer-bottom-a" href="#">© 2024 - ecommerce software by prestashop™</a></p>
+                    <!-- chatbox section start -->
+                    <button type="button" class="chatbox"><i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-xmark"></i></button>
+                    <div class="chat-box-outer">
+                        <div class="chat-form">
+                            <div class="chat-info">
+                                <p> Please fill out the form below and we will get back to you as soon as possible.</p>
+                            </div>
+                            <form>
+                                <input type="text" placeholder=" * Name" required>
+                                <input type="text" placeholder=" * Email" required>
+                                <button id="dep" type="button">
+                                    <label>Department</label>
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </button>
+                                <div class="department-type">
+                                    <span>online</span>
+                                    <span>offline</span>
+                                    <span><a href="#">sales</a></span>
+                                </div>
+                                <textarea placeholder=" * Message" required></textarea>
+                                <button type="button" class="form-sub"><i class="fa-solid fa-chevron-right"></i><span>
+                                        Submite</span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- chatbox section end -->
 
                 </div>
             </div>
